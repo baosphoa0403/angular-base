@@ -1,0 +1,10 @@
+<p style="font-size: 24; color: blue">oneway works!</p>
+<p>String Interpolation</p>
+<div>class: angular {{ name }}</div>
+
+<div>Properties binding</div>
+<input type="text" label="name" placeholder="hello world" [value]="fullName" />
+<div>Event Binding</div>
+<button class="btn btn-danger" (click)="handleChangeName()">
+  Change Full Name
+</button>
