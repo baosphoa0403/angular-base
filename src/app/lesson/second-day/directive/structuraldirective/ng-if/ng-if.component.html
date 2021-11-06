@@ -1,0 +1,7 @@
+<p>ng-if works!</p>
+
+<div *ngIf="show; else divElseShow">hello world</div>
+<button (click)="handleClick()" class="btn btn-danger">change</button>
+<ng-template #divElseShow> <div>div ẩn</div> </ng-template>
+<!--# template variable -->
+<!-- trong thẻ chỉ dc chứa dc 1 structural directive  -->

@@ -7,6 +7,9 @@ import { DatabindingComponent } from './second-day/databinding/databinding.compo
 import { OnewayComponent } from './second-day/databinding/oneway/oneway.component';
 import { TwowayComponent } from './second-day/databinding/twoway/twoway.component';
 import { FormsModule } from '@angular/forms';
+import { DirectiveComponent } from './second-day/directive/directive.component';
+import { StructuraldirectiveComponent } from './second-day/directive/structuraldirective/structuraldirective.component';
+import { NgIfComponent } from './second-day/directive/structuraldirective/ng-if/ng-if.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +19,9 @@ import { FormsModule } from '@angular/forms';
     DatabindingComponent,
     OnewayComponent,
     TwowayComponent,
+    DirectiveComponent,
+    StructuraldirectiveComponent,
+    NgIfComponent,
   ],
   imports: [CommonModule, FormsModule],
   exports: [LessonComponent],
