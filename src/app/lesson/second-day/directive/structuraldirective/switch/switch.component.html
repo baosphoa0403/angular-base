@@ -1,0 +1,16 @@
+<p>switch works!</p>
+<p style="font-size: 26; color: blue">[ngSwicth]</p>
+<div [ngSwitch]="conditionSwicth">
+  <div *ngSwitchCase="'red'" style="color: red">Màu đỏ</div>
+  <div *ngSwitchCase="'blue'" style="color: blue">Màu xanh</div>
+  <div *ngSwitchCase="'green'" style="color: green">Màu xanh lá</div>
+  <div *ngSwitchCase="'purple'" style="color: purple">Màu tím</div>
+  <div *ngSwitchDefault="" style="color: orange">Màu Mặc Định</div>
+</div>
+<!-- 'red': string -->
+<select #t (change)="handleChange($event)">
+  <option value="red">Màu Đỏ</option>
+  <option value="blue">Màu xanh</option>
+  <option value="green">Màu xanh lá</option>
+  <option value="purple">Màu tím</option>
+</select>
